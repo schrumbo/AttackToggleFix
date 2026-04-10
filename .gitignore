@@ -6,6 +6,9 @@ versions/*/build/
 # Loom cache
 **/loom-cache/
 
+# Run directories
+versions/*/run/
+
 # IntelliJ IDEA
 .idea/
 *.iml
