@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+versions/*/build/
+
+# Loom cache
+**/loom-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

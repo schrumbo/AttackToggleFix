@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "schrumbo.attacktogglefix.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"client": [
+		"KeyBindingAccessor",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

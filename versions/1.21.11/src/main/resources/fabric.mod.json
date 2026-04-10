@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "attacktogglefix",
+	"version": "${version}",
+	"name": "AttackToggleFix",
+	"description": "Stops the attack toggle when switching hotbar slots",
+	"authors": [
+		"schrumbo"
+	],
+	"license": "AGPL 3.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"schrumbo.attacktogglefix.AttackToggleFixClient"
+		]
+	},
+	"mixins": [
+		"attacktogglefix.mixins.json",
+		{
+			"config": "attacktogglefix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
